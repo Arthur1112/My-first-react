@@ -7,7 +7,6 @@ function App() {
   const [firstName, setFirstName] = useState('Art')
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const loginLogout = () => setIsLoggedIn(!isLoggedIn)
-
   return (
     <div className="App">
       <header className="App-header">
